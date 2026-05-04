@@ -5,10 +5,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Conexão Sustentável</title>
 
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+
 <style>
 body{
     margin:0;
-    font-family: Arial, sans-serif;
+    font-family:'Poppins', sans-serif;
     background:#eef5ef;
 }
 
@@ -21,6 +23,33 @@ header{
 
 header h1{
     font-size:3rem;
+}
+
+header p{
+    font-size:1.2rem;
+    opacity:0.9;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 25px;
+    background:white;
+    color:#166534;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#dcfce7;
+}
+
+h2{
+    text-align:center;
+    margin-top:50px;
+    font-size:2rem;
 }
 
 .grid{
@@ -56,10 +85,18 @@ header h1{
 .galeria img{
     width:100%;
     border-radius:15px;
+    transition:0.3s;
 }
 
-h2{
+.galeria img:hover{
+    transform:scale(1.05);
+}
+
+footer{
+    background:#166534;
+    color:white;
     text-align:center;
+    padding:20px;
     margin-top:40px;
 }
 </style>
@@ -69,11 +106,12 @@ h2{
 <body>
 
 <header>
-<h1>Conexão Sustentável</h1>
+<h1>🌱 Conexão Sustentável</h1>
 <p>Transformando resíduos em novas possibilidades</p>
+<a href="#ideias" class="btn">Ver Ideias</a>
 </header>
 
-<h2>Materiais Recicláveis</h2>
+<h2>♻️ Materiais Recicláveis</h2>
 
 <div class="grid">
 
@@ -83,31 +121,23 @@ h2{
 <div class="card"><img src="https://images.unsplash.com/photo-1615485290382-441e4d049cb5"><h3>Pente de ovos</h3></div>
 <div class="card"><img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf"><h3>Pneus</h3></div>
 <div class="card"><img src="https://images.unsplash.com/photo-1627485937980-c4d4fbcfc1c4"><h3>Tampinhas</h3></div>
-<div class="card"><img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f"><h3>Jornais</h3></div>
-<div class="card"><img src="https://images.unsplash.com/photo-1593642634367-d91a135587b5"><h3>Sacolas plásticas</h3></div>
-<div class="card"><img src="https://images.unsplash.com/photo-1580910051074-3eb694886505"><h3>Latinhas</h3></div>
-<div class="card"><img src="https://images.unsplash.com/photo-1586201375761-83865001e31c"><h3>Panelas velhas</h3></div>
-<div class="card"><img src="https://images.unsplash.com/photo-1581091012184-5c8e7f4d0c8d"><h3>Fios elétricos</h3></div>
 
 </div>
 
-<h2>Ideias de Reutilização (Passo a Passo)</h2>
+<h2 id="ideias">💡 Ideias de Reutilização</h2>
 
 <div class="grid galeria">
 
-<img src="pet.png">
-<img src="vidro.png">
-<img src="papelao.png">
-<img src="pente.png">
-<img src="pneus.png">
-<img src="tampinhas.png">
-<img src="jornais.png">
-<img src="sacolas.png">
-<img src="latas.png">
-<img src="panelas.png">
-<img src="fios.png">
+<img src="https://images.unsplash.com/photo-1593642634367-d91a135587b5">
+<img src="https://images.unsplash.com/photo-1586201375761-83865001e31c">
+<img src="https://images.unsplash.com/photo-1581091012184-5c8e7f4d0c8d">
+<img src="https://images.unsplash.com/photo-1580910051074-3eb694886505">
 
 </div>
+
+<footer>
+<p>Projeto de Extensão • Sustentabilidade e Inovação 🌍</p>
+</footer>
 
 </body>
 </html>
