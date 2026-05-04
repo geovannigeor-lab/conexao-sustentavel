@@ -6,113 +6,160 @@
 <title>Conexão Sustentável</title>
 
 <style>
-body {
-    margin: 0;
+body{
+    margin:0;
     font-family: Arial, sans-serif;
-    background: #f4f7f5;
+    background:#eef5ef;
 }
 
-header {
-    background: url('https://images.unsplash.com/photo-1501004318641-b39e6451bec6');
-    background-size: cover;
-    background-position: center;
-    color: white;
-    text-align: center;
-    padding: 80px 20px;
+/* TOPO */
+header{
+    background: linear-gradient(135deg,#166534,#22c55e);
+    color:white;
+    text-align:center;
+    padding:80px 20px;
 }
 
-header h1 {
-    font-size: 40px;
-    margin: 0;
+header h1{
+    font-size:3rem;
 }
 
-header p {
-    font-size: 18px;
+/* GRID */
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+    padding:30px;
 }
 
-.section {
-    padding: 40px;
-    text-align: center;
+/* CARDS */
+.card{
+    background:white;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    transition:0.3s;
+    text-align:center;
+    text-decoration:none;
+    color:black;
 }
 
-.cards {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
+.card:hover{
+    transform:scale(1.05);
 }
 
-.card {
-    width: 120px;
-    height: 120px;
-    border-radius: 15px;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-    font-size: 16px;
+.card img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
 }
 
-.azul { background: #2196F3; }
-.vermelho { background: #f44336; }
-.verde { background: #4CAF50; }
-.amarelo { background: #FFC107; color: black; }
-.marrom { background: #795548; }
+.card h3{
+    padding:15px;
+}
 
-img {
-    max-width: 100%;
-    border-radius: 15px;
-    margin-top: 20px;
+/* GALERIA */
+.galeria img{
+    width:100%;
+    border-radius:15px;
+}
+
+/* TITULOS */
+h2{
+    text-align:center;
+    margin-top:40px;
 }
 </style>
+
 </head>
 
 <body>
 
 <header>
-    <h1>🌱 Conexão Sustentável</h1>
-    <p>Inovação e Sustentabilidade • Reutilize, transforme e preserve</p>
+<h1>Conexão Sustentável</h1>
+<p>Transformando resíduos em novas possibilidades</p>
 </header>
 
-<section class="section">
-    <h2>♻️ Coleta Seletiva</h2>
-    <p>Separe corretamente seus resíduos:</p>
+<!-- CATEGORIAS -->
+<h2>Materiais Recicláveis</h2>
 
-    <div class="cards">
-        <div class="card azul">Papel</div>
-        <div class="card vermelho">Plástico</div>
-        <div class="card verde">Vidro</div>
-        <div class="card amarelo">Metal</div>
-        <div class="card marrom">Orgânico</div>
-    </div>
-</section>
+<div class="grid">
 
-<section class="section">
-    <h2>🌍 Conscientização Ambiental</h2>
-    <p>
-        Reutilizar materiais recicláveis ajuda a reduzir o lixo e preservar o meio ambiente.
-        Pequenas atitudes fazem grande diferença!
-    </p>
+<a href="#" class="card">
+<img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952">
+<h3>Garrafas PET</h3>
+</a>
 
-    <img src="https://images.unsplash.com/photo-1492496913980-501348b61469">
-</section>
+<a href="#" class="card">
+<img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b">
+<h3>Vidro</h3>
+</a>
 
-<section class="section">
-    <h2>📚 Objetivos de Desenvolvimento Sustentável</h2>
+<a href="#" class="card">
+<img src="https://images.unsplash.com/photo-1602524200844-4c8a1c1b1e4e">
+<h3>Papelão</h3>
+</a>
 
-    <p><b>ODS 3 – Saúde e Bem-Estar:</b> Um ambiente limpo contribui para a saúde.</p>
-    <p><b>ODS 4 – Educação de Qualidade:</b> Educação ambiental transforma atitudes.</p>
-    <p><b>ODS 11 – Cidades Sustentáveis:</b> Reciclagem ajuda cidades mais limpas.</p>
-</section>
+<a href="#" class="card">
+<img src="https://images.unsplash.com/photo-1615485290382-441e4d049cb5">
+<h3>Pente de ovos</h3>
+</a>
 
-<section class="section">
-    <h2>⚠️ Riscos do lixo</h2>
-    <p>
-        O descarte incorreto pode causar doenças, poluição da água e do solo.
-        O acúmulo de lixo favorece a proliferação de insetos e bactérias.
-    </p>
-</section>
+<a href="#" class="card">
+<img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf">
+<h3>Pneus</h3>
+</a>
+
+<a href="#" class="card">
+<img src="https://images.unsplash.com/photo-1627485937980-c4d4fbcfc1c4">
+<h3>Tampinhas</h3>
+</a>
+
+<a href="#" class="card">
+<img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f">
+<h3>Jornais</h3>
+</a>
+
+<a href="#" class="card">
+<img src="https://images.unsplash.com/photo-1593642634367-d91a135587b5">
+<h3>Sacolas plásticas</h3>
+</a>
+
+<a href="#" class="card">
+<img src="https://images.unsplash.com/photo-1580910051074-3eb694886505">
+<h3>Latinhas</h3>
+</a>
+
+<a href="#" class="card">
+<img src="https://images.unsplash.com/photo-1586201375761-83865001e31c">
+<h3>Panelas velhas</h3>
+</a>
+
+<a href="#" class="card">
+<img src="https://images.unsplash.com/photo-1581091012184-5c8e7f4d0c8d">
+<h3>Fios elétricos</h3>
+</a>
+
+</div>
+
+<!-- PASSO A PASSO -->
+<h2>Ideias de Reutilização (Passo a Passo)</h2>
+
+<div class="grid galeria">
+
+<img src="pet.png">
+<img src="vidro.png">
+<img src="papelao.png">
+<img src="pente.png">
+<img src="pneus.png">
+<img src="tampinhas.png">
+<img src="jornais.png">
+<img src="sacolas.png">
+<img src="latas.png">
+<img src="panelas.png">
+<img src="fios.png">
+
+</div>
 
 </body>
 </html>
