@@ -158,22 +158,19 @@ h2{
     /* ANTES E DEPOIS */
 
 .antes-grid{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-    gap:20px;
-    margin-top:40px;
+    display:flex;
     justify-content:center;
-    align-items:start;
-    padding:0 20px:
+    align-items:center;
+    margin-top:40px;
 }
 
 .antes-grid img{
-    width:100%;
+    width:90%;
+    max-width:1100px;
     height:auto;
-    object-fit:contain;
     border-radius:15px;
-    box-shadow:0 5px 15px rgba(0,0,0,0.2);
-    transition:0.3s;
+    display:block;
+    margin:auto;
 }
 
 .antes-grid img:hover{
