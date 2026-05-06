@@ -103,16 +103,19 @@ h2{
     grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
     gap:20px;
     margin-top:30px;
-    align-items: start;
 }
 
 .card{
-    background:white;
-    border-radius:15px;
-    padding:10px;
-    box-shadow:0 5px 15px rgba(0,0,0,0.1);
-    transition:0.3s;
-    text-align:center;
+  background:white;
+  border-radius:15px;
+  padding:10px;
+  box-shadow:0 5px 15px rgba(0,0,0,0.1);
+  transition:0.3s;
+  text-align:center;
+
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
 }
 
 .card:hover{
